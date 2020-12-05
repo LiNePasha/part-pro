@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+/*
+    ========================================================
+    │  Animation Scale For Login page      (_!**!_)        │
+    ========================================================
+*/
 
 .learn__press 
 {
@@ -24,6 +29,24 @@
     margin-left: 22rem;
 }
 
+.learn__press button#btn__add__ons,
+.learn__press button#lp
+{
+    background: #ffb606;
+    font-size: 16px;
+    padding: 10px 55px;
+    font-weight: 600;
+    color: #000;
+    transition: all .3s;
+    border: none;
+    outline: none;
+    margin-left: 30rem;
+}
+
+.learn__press button#lp 
+{
+    margin: 0 0 1rem 0;
+}
 
 .learn__press .learn__press__info 
 {
@@ -91,20 +114,6 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     cursor: pointer;
-}
-
-
-.learn__press button 
-{
-    background: #ffb606;
-    font-size: 16px;
-    padding: 10px 55px;
-    font-weight: 600;
-    color: #000;
-    transition: all .3s;
-    border: none;
-    outline: none;
-    margin-left: 30rem;
 }
 
 
@@ -198,6 +207,34 @@
     color: #ffb606;
 }
 
+@media (max-width: 750px){
+    .learn__press {
+        height: auto;
+    }
+    .learn__press img[alt="learn__press"] {
+        margin-left: 0;
+    }
+    .learn__press__info__imgs .card__imgs {
+        padding-left: 5vh;
+    }
+    .learn__press__info__imgs .card__imgs img[alt="learn-pre"] {
+        margin: 0;
+    }
+    .learn__press__info__imgs .card__imgs img[alt="Course-review"] {
+        display: none;
+    }
+    .learn__press button#btn__add__ons {
+        margin:0 0 1rem 9rem;
+    }
+    .learn__press .learn__press__info {
+        flex-direction: column;
+        height: auto;
+    }
+    .learn__press__info .learn__press__info__text, .learn__press__info__imgs {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+}
 
 
 
@@ -289,3 +326,4 @@
     margin-right: 1.5rem;
     cursor: pointer;
 }
+
