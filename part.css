@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.users__trust__eduma
+{
+    width: 100%;
+    height: 25rem;
+    background: red;
+    background-image: url("https://educationwp.thimpress.com/wp-content/themes/eduma-child-landingpage/assets/images/BG2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.users__trust__eduma .users__trust__eduma__center 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.users__trust__eduma .users__trust__eduma__center span 
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    display: block;
+}
+
+.users__trust__eduma .users__trust__eduma__center span:nth-of-type(2)
+{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1.1rem;
+}
+
+.users__trust__eduma .users__trust__eduma__center a 
+{
+    font-size: 16px;
+    border: 3px solid #000;
+    padding: 10px 55px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #000;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.users__trust__eduma .users__trust__eduma__center a:hover 
+{
+    border-color: #fff;
+    color: #fff;
+}
+
+.box__icons 
+{
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+.box__icons span 
+{
+    text-align: center;
+}
+
+.box__icons img 
+{
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
