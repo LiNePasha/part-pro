@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *
 {
@@ -94,7 +94,109 @@
 }
 
 
+.learn__press button 
+{
+    background: #ffb606;
+    font-size: 16px;
+    padding: 10px 55px;
+    font-weight: 600;
+    color: #000;
+    transition: all .3s;
+    border: none;
+    outline: none;
+    margin-left: 30rem;
+}
 
+
+.learn__press button + .learnpress__popup 
+{
+    /*position: fixed;
+    */position: fixed;
+    /*position: sticky;
+    */width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #fff;
+    z-index: 100;
+    text-align: center;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+}
+
+.learn__press button + .learnpress__popup i 
+{
+    position: absolute;
+    font-size: 3rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
+
+.learnpress__popup__info 
+{
+    width: 100%;
+    height: 10rem;
+    /* background: red; */
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.learnpress__popup__info .model__body 
+{
+    width: 49%;
+    /* background: yellow; */
+    display: flex;
+    text-align: left ;
+
+}
+
+.learnpress__popup__info .model__body img 
+{
+    width: 45%;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.learnpress__popup__info .model__body a, .learnpress__popup__info .model__body p
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.learnpress__popup__info .model__body p 
+{
+    color: #ccc;
+}
+
+.learnpress__popup__info .model__body a 
+{
+    color: black;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.learnpress__popup__info .model__body a:hover 
+{
+    color: #ffb606;
+}
 
 
 
