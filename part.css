@@ -207,7 +207,7 @@
     color: #ffb606;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1200px){
     .learn__press {
         height: auto;
     }
@@ -237,9 +237,29 @@
 }
 
 
+@media  (min-width: 751px) and  (max-width: 1000px) {
+    .learn__press img[alt="learn__press"] {
+        margin-left: 10rem;
+    }
+    .learn__press__info__imgs .card__imgs {
+        padding-left: 20vh;
+    }
+    .learn__press button#btn__add__ons {
+        margin:0 0 1rem 15rem;
+    }
+}
 
-
-
+@media  (min-width: 1001px) and  (max-width: 1200px) { 
+    .learn__press img[alt="learn__press"] {
+        margin-left: 20rem;
+    }
+    .learn__press__info__imgs .card__imgs {
+        padding-left: 40vh;
+    }
+    .learn__press button#btn__add__ons {
+        margin:0 0 1rem 25rem;
+    }
+}
 
 
 
